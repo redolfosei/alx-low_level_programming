@@ -2,4 +2,8 @@
 gcc $CFILE -E -o c
 
 [Write a script that compiles a C file but does not link.]
+gcc -c $CFILE
+
+[Write a script that generates the assembly code of a C code and save it in an output file.]
+
 
