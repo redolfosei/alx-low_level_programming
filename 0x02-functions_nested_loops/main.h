@@ -1,11 +1,7 @@
-#include <stdio.h> 
+#ifndef MATH_H_INCLUDED
+#define MATH_H_INCLUDED
 
-/**
-*void - returns no value
-*
-*/
+int _putchar(char c); 
+void print_alphabet(void);
 
-void print_pucharmsg(void)
-{
-  printf("_putchar\n");
-}  
+#endif
