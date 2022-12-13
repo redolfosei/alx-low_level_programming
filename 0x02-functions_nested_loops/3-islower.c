@@ -2,10 +2,10 @@
 #include <ctype.h>
 
 /**
- *  *_islower - tells if a data is lower or not
- *   * @c: takes the input
- *    * Return: returun status code
- *     */
+ * _islower - tells if a data is lower or not
+ * @c: takes the input
+ * Return: returun status code
+ **/
 
 int _islower(int c)
 {
