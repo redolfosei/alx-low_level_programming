@@ -1,24 +1,18 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
-* _islower - Check code
-*
-* Description: function prints alphabets in lowercase and return a result
-*
-* Return: 1 if is lowercase or 0 if is uppercase
-*/
+ *print_alphabet_x10 - print the alphabet 10 times
+ */
+void print_alphabet_x10(void)
+{
+char letter;
+int count;
+for (count = 0; count < 10; count++)
+{
+for (letter = 'a'; letter <= 'z'; letter++)
+putchar(letter);
 
-int _islower(int c)
-{
-char r;
-int isLower = 0;
-
-for (r = 'a'; r <= 'z'; r++)
-{
-if (r == c)
-{
-isLower = 1;
+putchar('\n');
 }
-}
-return (isLower);
 }
