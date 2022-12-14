@@ -16,6 +16,7 @@ printf("%d\n", num);
 }
 else
 {
+while (num > 98)
 printf("%d, ", num--);
 printf("%d\n", num);
 }
