@@ -1,13 +1,22 @@
 #include "main.h"
 
 /**
-* main - prints a message from main .h
+*main - Entry point
 *
-* Return: nothing 0
+*Return: Nothing 0
 */
 
 int main(void)
 {
-print_pucharmsg();
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+
 return (0);
 }
