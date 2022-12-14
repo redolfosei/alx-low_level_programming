@@ -13,7 +13,7 @@ int number, mult, product;
 for (number = 0; number <= 9; number++)
 {
 _putchar('0');
-for (mult = 1; mult <= 9; mul++)
+for (mult = 1; mult <= 9; mult++)
 {
 _putchar(',');
 _putchar(' ');
