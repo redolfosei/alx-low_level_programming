@@ -14,7 +14,6 @@ gcc $CFILE -o cisfun
 [puts already brings a newline at the end of the print.]
 4-puts.c
 
-
 [5. Write a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.]
 5-printf.c
 
@@ -30,3 +29,4 @@ puts
 fputs
 printf
 write(STDOUT_FILENO, "and that piece of art is useful\" - DK, 2022-10-19\n", 59);
+fprintf
