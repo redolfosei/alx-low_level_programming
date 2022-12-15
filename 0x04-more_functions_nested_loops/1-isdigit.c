@@ -9,15 +9,12 @@
 
 int _isdigit(int c)
 {
-for (int i = 0; i <= 9; i++)
-{
-if !(c > 9)
+if (c >= '0' && c <= '9')
 {
 return (1);
 }
 else
 {
 return (0);
-}
 }
 }
