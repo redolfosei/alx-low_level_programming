@@ -9,3 +9,9 @@
 
 [a function that compares two strings.]
 3-strcmp.c
+
+[Write a function that reverses the content of an array of integers.]
+4-rev_array.c
+
+[Write a function that changes all lowercase letters of a string to uppercase.]
+5-string_toupper.c
