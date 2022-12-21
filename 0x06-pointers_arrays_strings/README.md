@@ -6,3 +6,6 @@
 
 [a function that copies a string.]
 2-strncpy.c
+
+[a function that compares two strings.]
+3-strcmp.c
