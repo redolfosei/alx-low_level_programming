@@ -15,3 +15,8 @@
 
 [Write a function that changes all lowercase letters of a string to uppercase.]
 5-string_toupper.c
+
+[Write a function that capitalizes all words of a string.]
+6-cap_string.c
+
+[]
