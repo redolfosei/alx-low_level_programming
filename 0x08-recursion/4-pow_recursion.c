@@ -19,7 +19,7 @@ return (1);
 else if (y % 2 == 0)
 {
 even = _pow_recursion(x, y / 2);
-return (even * even);
+return (even *even);
 }
 else
 return (x * _pow_recursion(x, y - 1));
